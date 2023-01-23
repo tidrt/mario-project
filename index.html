@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imagens/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+    <title>Super Mario Bros - O Filme</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+
+    <div class="background-video">
+        <video class="video" autoplay loop muted>
+            <source src="./video/video-mario.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="header">
+        <a href="">
+            <img class="logo" src="./imagens/logo-chapeu-mario.png" alt="Logo do Mario">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Details</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="information">
+            <img class="image-title" src="./imagens/titulo.png" alt="Titulo do Filme">
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ipsum nostrum? Autem expedita culpa architecto delectus sapiente perferendis libero, excepturi at, rem cumque laborum labore nihil et odio quisquam impedit.</p>
+            <button class="button">Veja o trailer</button>
+        </div>
+        <img class="mario" src="./imagens/super-mario-chars.png" alt="Imagem do Mario e outros personagens">
+
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="Trailer Oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+</html>
